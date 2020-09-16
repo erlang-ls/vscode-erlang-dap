@@ -5,9 +5,6 @@ Experiment with a daptoy launch config (in `.vscode/launch.json`) of
 
 ```json
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -35,3 +32,7 @@ rebar3 as dap escriptize
 ```
 
 Make sure `./_build/dap/bin/els_dap` is in your path.
+
+The target project for the launch config is
+[daptoy](https://github.com/erlang-ls/daptoy), set a breakpoint around
+line 10 of `src/daptoy_fact.erl.
