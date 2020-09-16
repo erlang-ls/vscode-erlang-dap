@@ -3,7 +3,6 @@ VS Code extension for Erlang Debugger
 
 Experiment with a daptoy launch config (in `.vscode/launch.json`) of
 
-
 ```json
 {
     // Use IntelliSense to learn about possible attributes.
@@ -25,3 +24,14 @@ Experiment with a daptoy launch config (in `.vscode/launch.json`) of
     ]
 }
 ```
+
+## setting up
+
+```
+git clone https://github.com/alanz/erlang_ls.git
+cd erlang_ls
+git checkout dap-vscode
+rebar3 as dap escriptize
+```
+
+Make sure `./_build/dap/bin/els_dap` is in your path.
